@@ -18,7 +18,7 @@
 import {Observable} from 'rxjs';
 import {delay} from 'rxjs/operators';
 import {ListenEvent, QueryChange, ListenerMethods} from './interfaces';
-import {off} from 'firebase/database';
+import {on} from 'firebase/database';
 
 /**
  * Create an observable from a Database Reference or Database Query.
